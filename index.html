@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+
+    <title>Final Project</title>
+</head>
+<body>
+    <!-- creating one container with 3 rows --> 
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h3 class="text-primary">Description of task</h3>
+                <div class="input-group">
+                        
+                    <textarea class="form-control" aria-label="With textarea"></textarea>
+                      
+                </div>
+            </div>         
+        </div>
+    <!-- created 1 row and 2 columns -->    
+        <div class="row">
+            <div class="col">  
+                <h3 class="text-primary">Assigned to</h3>
+                <div class="input-group">
+                    <input type="text" class="form-control">
+                </div>
+            </div>
+
+            <div class="col">
+                <h3 class="text-primary">Due Date</h3>
+                <div class="input-group date" data-provide="datepicker">
+                    <input type="text" class="form-control">
+                    <div class="input-group-addon">
+                        <span class="glyphicon glyphicon-th"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+    <!-- created 1 row for submit button-->    
+        <div class="row">
+            
+                <input class="btn btn-primary col-12" type="submit" value="Add Task">
+            
+        </div>
+
+
+    </div>
+</body>
+</html>
